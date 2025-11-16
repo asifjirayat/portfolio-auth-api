@@ -2,8 +2,8 @@ const jwt = require("jsonwebtoken");
 
 // Project passwords
 const PROJECT_PASSWORDS = {
-  "case-study": process.env.PASSWORD_CASE1 || "20081994",
-  "dev-project": process.env.PASSWORD_CASE2 || "20081994",
+  "case-study": process.env.PASSWORD_CASE1,
+  "dev-project": process.env.PASSWORD_CASE2,
 };
 
 module.exports = async (req, res) => {
